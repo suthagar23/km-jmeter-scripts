@@ -16,5 +16,5 @@ MongoClient mongoClient = new MongoClient(clientURI);
 MongoDatabase testDB = mongoClient.getDatabase("sample-database");
 MongoCollection<Document> numbersCollection = testDB.getCollection("samplecollection");
 
-Document doc = new Document("name", "test").append("value", "ok");
+Document doc = new Document("org-name", "year", "plan", "timestamp").append("Kloudmate", 2022, "DocumentDB", System.currentTimeMillis());
 numbersCollection.insertOne(doc);
