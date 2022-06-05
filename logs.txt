@@ -1,0 +1,224 @@
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=10 -Jrumpup=10
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:14:51 UTC 2022 (1654445691266)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary +      8 in 00:00:08 =    1.0/s Avg:   650 Min:    77 Max:  2687 Err:     0 (0.00%) Active: 1 Started: 8 Finished: 7
+summary +      2 in 00:00:02 =    0.9/s Avg:    87 Min:    82 Max:    93 Err:     0 (0.00%) Active: 0 Started: 10 Finished: 10
+summary =     10 in 00:00:10 =    1.0/s Avg:   538 Min:    77 Max:  2687 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:15:02 UTC 2022 (1654445702595)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=50 -Jrumpup=10
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:16:35 UTC 2022 (1654445795809)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary =     50 in 00:00:10 =    4.9/s Avg:   674 Min:    48 Max:  3500 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:16:47 UTC 2022 (1654445807096)
+... end of run
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=100 -Jrumpup=10
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:17:52 UTC 2022 (1654445872656)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary +     53 in 00:00:06 =    8.4/s Avg:  1668 Min:    51 Max:  4420 Err:     0 (0.00%) Active: 2 Started: 54 Finished: 52
+summary +     47 in 00:00:04 =   12.4/s Avg:    58 Min:    45 Max:   122 Err:     0 (0.00%) Active: 0 Started: 100 Finished: 100
+summary =    100 in 00:00:10 =    9.9/s Avg:   911 Min:    45 Max:  4420 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:18:03 UTC 2022 (1654445883921)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=200 -Jrumpup=10
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:19:02 UTC 2022 (1654445942775)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary =    200 in 00:00:12 =   16.7/s Avg:  2349 Min:   189 Max:  6999 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:19:15 UTC 2022 (1654445955927)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=400 -Jrumpup=10
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:19:52 UTC 2022 (1654445992644)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary +      1 in 00:00:09 =    0.1/s Avg:  8860 Min:  8860 Max:  8860 Err:     0 (0.00%) Active: 109 Started: 109 Finished: 0
+summary +    399 in 00:00:37 =   10.7/s Avg: 13303 Min:   389 Max: 31050 Err:   160 (40.10%) Active: 0 Started: 400 Finished: 400
+summary =    400 in 00:00:46 =    8.7/s Avg: 13292 Min:   389 Max: 31050 Err:   160 (40.00%)
+Tidying up ...    @ Sun Jun 05 16:20:39 UTC 2022 (1654446039950)
+... end of run
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=300 -Jrumpup=10
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:21:26 UTC 2022 (1654446086578)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary +      1 in 00:00:08 =    0.1/s Avg:  7080 Min:  7080 Max:  7080 Err:     0 (0.00%) Active: 91 Started: 91 Finished: 0
+summary +    299 in 00:00:35 =    8.5/s Avg:  5862 Min:   208 Max: 31041 Err:    64 (21.40%) Active: 0 Started: 300 Finished: 300
+summary =    300 in 00:00:43 =    6.9/s Avg:  5866 Min:   208 Max: 31041 Err:    64 (21.33%)
+Tidying up ...    @ Sun Jun 05 16:22:10 UTC 2022 (1654446130998)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=300 -Jrumpup=15
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:23:18 UTC 2022 (1654446198638)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary +    137 in 00:00:10 =   13.5/s Avg:  2541 Min:    90 Max:  7128 Err:     0 (0.00%) Active: 4 Started: 140 Finished: 136
+summary +    114 in 00:00:34 =    3.4/s Avg:   359 Min:    44 Max: 30014 Err:     3 (2.63%) Active: 50 Started: 300 Finished: 250
+summary =    251 in 00:00:44 =    5.7/s Avg:  1550 Min:    44 Max: 30014 Err:     3 (1.20%)
+summary +     49 in 00:00:01 =   41.1/s Avg: 30005 Min: 30002 Max: 30018 Err:    49 (100.00%) Active: 0 Started: 300 Finished: 300
+summary =    300 in 00:00:45 =    6.7/s Avg:  6198 Min:    44 Max: 30018 Err:    52 (17.33%)
+Tidying up ...    @ Sun Jun 05 16:24:04 UTC 2022 (1654446244882)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=300 -Jrumpup=20
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:24:47 UTC 2022 (1654446287327)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary +    151 in 00:00:12 =   12.9/s Avg:  1256 Min:    44 Max:  5578 Err:     0 (0.00%) Active: 4 Started: 154 Finished: 150
+summary +     99 in 00:00:36 =    2.8/s Avg:   360 Min:    44 Max: 30004 Err:     1 (1.01%) Active: 51 Started: 300 Finished: 249
+summary =    250 in 00:00:47 =    5.3/s Avg:   901 Min:    44 Max: 30004 Err:     1 (0.40%)
+summary +     50 in 00:00:03 =   17.9/s Avg: 30007 Min: 30002 Max: 30047 Err:    50 (100.00%) Active: 0 Started: 300 Finished: 300
+summary =    300 in 00:00:50 =    6.0/s Avg:  5752 Min:    44 Max: 30047 Err:    51 (17.00%)
+Tidying up ...    @ Sun Jun 05 16:25:38 UTC 2022 (1654446338539)
+... end of run
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=400 -Jrumpup=20
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:26:40 UTC 2022 (1654446400437)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary +    353 in 00:00:48 =    7.3/s Avg:  9606 Min:    43 Max: 30142 Err:   104 (29.46%) Active: 48 Started: 400 Finished: 352
+summary +     47 in 00:00:02 =   28.7/s Avg: 30005 Min: 30002 Max: 30014 Err:    47 (100.00%) Active: 0 Started: 400 Finished: 400
+summary =    400 in 00:00:50 =    8.0/s Avg: 12003 Min:    43 Max: 30142 Err:   151 (37.75%)
+Tidying up ...    @ Sun Jun 05 16:27:31 UTC 2022 (1654446451689)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=10 -Jrumpup=1
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:29:45 UTC 2022 (1654446585768)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary =     10 in 00:00:03 =    3.1/s Avg:  2643 Min:  2157 Max:  3142 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:29:50 UTC 2022 (1654446590176)
+... end of run
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=25 -Jrumpup=1
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:31:17 UTC 2022 (1654446677080)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary =     25 in 00:00:05 =    5.5/s Avg:  3905 Min:  3417 Max:  4435 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:31:22 UTC 2022 (1654446682790)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=50 -Jrumpup=1
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:32:04 UTC 2022 (1654446724780)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary =     50 in 00:00:06 =    7.8/s Avg:  5751 Min:  5275 Max:  6271 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:32:12 UTC 2022 (1654446732355)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=100 -Jrumpup=1
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:33:05 UTC 2022 (1654446785545)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary =    100 in 00:00:10 =    9.9/s Avg:  9315 Min:  8658 Max: 10030 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:33:16 UTC 2022 (1654446796874)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=150 -Jrumpup=1
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:33:37 UTC 2022 (1654446817811)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary =    150 in 00:00:11 =   13.3/s Avg: 10420 Min:  9891 Max: 11152 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:33:50 UTC 2022 (1654446830244)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=200 -Jrumpup=1
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:34:16 UTC 2022 (1654446856696)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary +      1 in 00:00:17 =    0.1/s Avg: 15882 Min: 15882 Max: 15882 Err:     0 (0.00%) Active: 200 Started: 200 Finished: 0
+summary +    199 in 00:00:00 =  710.7/s Avg: 16388 Min: 15804 Max: 17207 Err:     0 (0.00%) Active: 0 Started: 200 Finished: 200
+summary =    200 in 00:00:17 =   11.5/s Avg: 16385 Min: 15804 Max: 17207 Err:     0 (0.00%)
+Tidying up ...    @ Sun Jun 05 16:34:35 UTC 2022 (1654446875226)
+... end of run
+
+
+----------------------------------------------------------------------------------------------
+
+ubuntu@ip-172-31-17-192:~/apache-jmeter-5.4.3/bin$ ./jmeter.sh -n -t /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx -l km-logs.csv -Jthreads=250 -Jrumpup=1
+Creating summariser <summary>
+Created the tree successfully using /home/ubuntu/km-jmeter-scripts/KloudMate_GroovyScript_Testplan.jmx
+Starting standalone test @ Sun Jun 05 16:35:05 UTC 2022 (1654446905001)
+Waiting for possible Shutdown/StopTestNow/HeapDump/ThreadDump message on port 4445
+Warning: Nashorn engine is planned to be removed from a future JDK release
+summary =    250 in 00:00:20 =   12.3/s Avg: 19208 Min:  5945 Max: 20310 Err:     2 (0.80%)
+Tidying up ...    @ Sun Jun 05 16:35:26 UTC 2022 (1654446926599)
+... end of run
+
+

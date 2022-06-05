@@ -9,7 +9,7 @@
 1. Update the connection string the script
 2. Run the JMeter with these required paramters
     - Thread Count `-Jthreads=2`
-    - Rumpup period `-Jrumpup=10`
+    - Rampup period `-Jrumpup=10`
 
 
 ```
