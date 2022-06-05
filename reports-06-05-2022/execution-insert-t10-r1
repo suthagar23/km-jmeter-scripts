@@ -1,0 +1,11 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1654446587123,3037,JSR223 Sampler,200,OK,Thread Group 1-2,text,true,,0,0,10,10,null,0,0,0
+1654446587356,2805,JSR223 Sampler,200,OK,Thread Group 1-4,text,true,,0,0,10,10,null,0,0,0
+1654446587685,2477,JSR223 Sampler,200,OK,Thread Group 1-7,text,true,,0,0,10,10,null,0,0,0
+1654446587582,2580,JSR223 Sampler,200,OK,Thread Group 1-6,text,true,,0,0,10,10,null,0,0,0
+1654446588005,2157,JSR223 Sampler,200,OK,Thread Group 1-10,text,true,,0,0,10,10,null,0,0,0
+1654446587894,2268,JSR223 Sampler,200,OK,Thread Group 1-9,text,true,,0,0,10,10,null,0,0,0
+1654446587021,3142,JSR223 Sampler,200,OK,Thread Group 1-1,text,true,,0,0,10,10,null,0,0,0
+1654446587803,2360,JSR223 Sampler,200,OK,Thread Group 1-8,text,true,,0,0,10,10,null,0,0,0
+1654446587244,2919,JSR223 Sampler,200,OK,Thread Group 1-3,text,true,,0,0,10,10,null,0,0,0
+1654446587475,2688,JSR223 Sampler,200,OK,Thread Group 1-5,text,true,,0,0,10,10,null,0,0,0
